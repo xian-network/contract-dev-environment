@@ -55,3 +55,10 @@ Want to show us what you made, get feedback or need support ?
 [Forum](https://forum.xian.org/)
 [Github](https://github.com/xian-network/)
 
+
+### Any suggestions ?
+- Do you have any suggestions on how to improve this tool ?
+  - Open an issue or message us on any of our comms channels 
+- Any improvements you'd like to make yourself
+  - PR's welcome - if it's good we'll award a bounty !
+ 
