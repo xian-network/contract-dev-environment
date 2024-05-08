@@ -3,12 +3,13 @@
 **This repository provides a quick and easy way to get up and running creating smart contracts.**
 **Included are an example contract, associated tests and instructions on how to get started.**
 
-### Features
+## Features
 
 - Start writing & testing smart-contracts quickly.
 - Quick deployment of contracts to Xian networks
 - No configuration of the host system needed.
 - One dependency, available on all platforms (Docker)
+- Example contract + tests included
 
 ## Who is this for ?
 - Everyone interested in writing smart contracts on Xian
