@@ -59,6 +59,7 @@ Want to show us what you made, get feedback or need support ?
 ### Any suggestions ?
 - Do you have any suggestions on how to improve this tool ?
   - Open an issue or message us on any of our comms channels 
-- Any improvements you'd like to make yourself
+- Any improvements you'd like to make yourself ?
   - PR's welcome - if it's good we'll award a bounty !
+- Is there any tooling you'd love to see included (linters, formatters, etc) Let us know ! <3
  
