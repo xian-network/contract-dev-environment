@@ -39,6 +39,8 @@
     - How to interrogate the state of the contract
     - How to configure the execution environment of the test (Time, Random Number Seed, etc.)
 
+The docker container reads the files in `/contracts`, any changes you make while the container is running will be reflected in the container environment.
+
 ### Deployment Guide
 
 TO-DO !
