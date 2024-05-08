@@ -5,6 +5,7 @@ from contracting.client import ContractingClient
 
 class TestCurrencyContract(unittest.TestCase):
     def setUp(self):
+        # Called before every test, bootstraps the environment.
         self.client = ContractingClient()
         self.client.flush()
 
@@ -15,6 +16,7 @@ class TestCurrencyContract(unittest.TestCase):
         self.currency = self.client.get_contract("currency")
 
     def tearDown(self):
+        # Called after every test, ensures each test starts with a clean slate and is isolated from others
         self.client.flush()
 
     def test_initial_balance(self):
