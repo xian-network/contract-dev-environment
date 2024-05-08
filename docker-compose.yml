@@ -1,0 +1,9 @@
+version: '3.8'
+services:
+  app:
+    build: .
+    hostname: test-shell
+    volumes:
+      - ./contracts:/usr/src/app/contracts
+    stdin_open: true
+    tty: true
