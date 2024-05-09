@@ -9,7 +9,7 @@ class TestCurrencyContract(unittest.TestCase):
         self.client = ContractingClient()
         self.client.flush()
 
-        with open("currency.s.py") as f:
+        with open("token_xst001.py") as f:
             code = f.read()
             self.client.submit(code, name="currency")
 
