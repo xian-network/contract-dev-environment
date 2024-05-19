@@ -6,11 +6,11 @@ RUN apt-get update && apt-get install -y \
 
 WORKDIR /usr/src/app
 
-RUN git clone https://github.com/xian-network/contracting.git
+RUN git clone https://github.com/xian-network/xian-contracting.git
 RUN pip install pytest
 
 WORKDIR /usr/src/app/contracts
 
-RUN pip install -e ../contracting
+RUN pip install -e ../xian-contracting
 
 CMD ["tail", "-f", "/dev/null"]
